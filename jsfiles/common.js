@@ -1,0 +1,366 @@
+function firstdiv1(){
+    with(document){
+        write(" <div class='constant firstdiv'>");
+        write(" <div class='constant topbarfirstdiv'>");
+        write(" <div class='miniheader'>Pharmarholic:</div>");
+        write("<div class='headerdocument'>Vitamins,</div>");
+        write(" <div class='headerdocument'>Supplements</div>");
+        write(" <div class='headerdocument'>&</div>");
+        write(" <p class='headerdocument'>Natural </p>");
+        write("<p class='headerdocument'> Health</p>");
+        write("<p class='headerdocument'> Products</p>");
+        write(" </div>");
+        write(" <div class='topbarseconddiv'>");
+        write("<a href='' class='headerdocument'>Track Your Order</a>");
+        write(" <div class='headerdocument'>|</div>");
+        write(" <a href='' class='headerdocument'>Contact Us</a>");
+        write(" </div>");
+        write(" </div>");
+    }
+}
+
+
+function seconddiv2(){
+    with(document){
+        write(' <div class=" constant seconddiv">');
+        write(' <div class=" constant seconddivcontainer">');
+        write(' <div class="logocontainer">');
+        write('<img src="pharmaholic1.jpg" class="logocontainer"></img>');
+        write(' </div>');
+        write('<div class="searchdiv">');
+        write('<input type="text" class="blap" placeholder="enter the search text">');
+        write( '<button class="searchbutton">search</button>');
+        write('  </div>');
+        write('<div class="sideitems">');
+        write('<a href="">');
+        write(' <div class="calldiv">');
+        write('<img src="call.svg" alt="">');
+        write('<div class="consulting service">');
+        write(' <p class="consultingname">Consulting Service</p>');
+        write('<p class="phonenumber">(+234) 816 -571-3623</p>');
+        write(' </div>');
+        write(' </div>');
+        write(' </a>');
+        write(' <div class="wishlistdiv">');
+        write('<a href=""> <img src="chat.svg" alt="" class="heart"></a>');
+        write(' </div>');
+        write('  <div class="shoppingcart">');
+        write(' <a href="cart.html"><img src="shoping-cart.svg" alt=""></a>');
+        write(' <div class="countercase">');
+        write('<p class="cartincrementor">0</p>');
+        write(' </div>');
+        write(' </div>');
+        write(' <div class="account">');
+        write(' <img src="person.svg" alt="" class="accountimage">');
+        write(' </div>');
+        write(' </div>');
+        write(' </div>');
+        write('<div class="liep">');
+        write('<img class="buns" src="wishlist.svg" alt="">');
+        write(' <div class="lll">');
+        write( "<input type='text' class='blap curve' placeholder='enter the search text'>");
+        write(' <button class="searchbutton blipez">search</button>');
+        write(' </div>');
+        write(' </div>');
+        write(' </div>');
+        
+    }
+}
+
+function thirddiv3(){
+    with(document){
+        write('<div class=" constant thirddiv">');
+        write('<div class="constant thirddivcontents">');
+        write('<div class="resized">');
+        write(' <a href="" class="lime contentshover"> Health Goal </a>');
+        write(' <svg class="newsvg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">');
+        write('<path d="M480-380 276-584l20-20 184 184 184-184 20 20-204 204Z" />');
+        write('</svg>');
+        write(' <div class="hup">');
+        write('<div class="yoyo"></div>');
+        write(' <div class="datadiv case117">');
+        write(' <div class="case102 cvv" id="1">Active Lifestyle</div>');
+        write(' <div class="case102 cvv" id="2">Blood Sugar Support</div>');
+        write('<div class="case102 cvv" id="3">Bone Health</div>');
+        write(' <div class="case102 cvv" id="4">Brain Health</div>');
+        write(' <div class="case102 cvv" id="5">Detoxification</div>');
+        write('<div class="case102 cvv" id="6">Diet & Lifestyle</div>');
+        write(' <div class="case102 cvv" id="7">Digestive Health</div>');
+        write('<div class="case102 cvv" id="8">Energy Support</div>');
+        write('<div class="case102 cvv" id="9">Eye Health</div>');
+        write('<div class="case102 cvv" id="10">Heart Health</div>');
+        write(' <div class="case102 cvv" id="11">Immune Support</div>');
+        write('   <div class="case102 cvv" id="12">Joint Health</div>');
+        write('<div class="case102 cvv" 1d="13">Joint Support</div>');
+        write(" <div class='case102 cvv' id='14'>Men's Health</div>");
+        write(' <div class="case102 cvv" 1d="15">Mens Health</div>');
+        write(' <div class="case102 cvv" id="16">Respiratory Support</div>');
+        write(' <div class="case102 cvv" id="17">Sexual Health & Facility</div>');
+        write('<div class="case102 cvv" id="18">Sleep & Relaxation</div>');
+        write("<div class='case102 cvv' id='19'>Women's Health</div>");
+        write(' <div class="case102 cvv" id="20">Womens Health</div>');
+        write(' </div>');
+        write(' </div>');
+        write(' </div>');
+        write(' <div class="case110"><a href="Baby&kids.html" class="contentshover">Baby & kids</a></div>');
+        write(' <div class="case110"><a href="beauty&personalcare.html" class="contentshover">Beauty & Personal Care</a></div>');
+        write(' <div class="case110"><a href="clearance.html" class="contentshover">Clearance</a></div>');
+        write(' <div class="case110"><a href="Food&Grocery.html" class="contentshover">Food & Grocery</a></div>');
+        write(' <div class="case110"><a href="Giftsets.html" class="contentshover">Giftsets</a></div>');
+        write(' <div class="case110"><a href="Herbs.html" class="contentshover">Herbs</a></div>');
+        write('<div class="case110"><a href="Minerals.html" class="contentshover">Minerals</a></div>');
+        write('<div class="case110"><a href="Vitamins&Supplements.html" class="contentshover">Vitamins & Suplements</a></div>');
+        write('</div>');
+        write('</div>');
+       
+    }
+}
+
+function fourthdiv4(){
+    with(document){
+        write('<div class="fourthdiv">');
+        write(' <div class="fourthdivcontents">');
+        write(' <a href="home.html" class="homedata">Home</a>');
+        write(' </div>');
+        write(' </div>');
+      
+    }
+}
+
+function fd(){
+    with(document){
+        write('<div class="fifthdiv">');
+        write(' <div class="fifthdivmini">');
+        write('<div id="fff" class="firstcontainer">');
+        write('<div class="class2 club">Categories</div>');
+        write('<div class="class2 pyx">');
+        write(' <p class=" cleo"> Pharmarholic</p>');
+        write(' <div id="plier" class="plier"> <svg xmlns="http://www.w3.org/2000/svg" height="24"');
+        write('viewBox="0 -960 960 960" width="24">');
+        write(' <path');
+        write(' d="m256-236-20-20 224-224-224-224 20-20 224 224 224-224 20 20-224 224 224 224-20 20-224-224-224 224Z" />');
+        write(' </svg></div>');
+        write('</div>');
+        write('<div class="case1"><a href="" class="firstcontainerdiv">Aromatherapy</a></div>');
+        write('<div class="case1"><a href="" class="firstcontainerdiv">Beauty & Personal Care</a></div>');
+        write('<div class="case1"><a href="" class="firstcontainerdiv">Clearance</a></div>');
+        write('<div class="case1"><a href="" class="firstcontainerdiv">Food & Grocery</a></div>');
+        write('<div>');
+        write(' <div class=" constant case6"> <a href="" class="firstcontainerdiv">Health Goal</a>');
+        write(' <div class="flipper" id="flipped"><img src="arrowdown.svg" alt="" class="flipped"> </div>');
+        write(' </div>');
+        write(' <div class="case101" id="case101">');
+        write(' <div class="case102" id="1"> Aromatherapy</div>');
+        write('<div class="case102" id="2">Blood Sugar Support</div>');
+        write('<div class="case102" id="3">Bone Health</div>');
+        write('<div class="case102" id="4">Brain Health</div>');
+        write('<div class="case102" id="5">Detoxification</div>');
+        write('<div class="case102" id="6">Diet & Lifestyle</div>');
+        write('<div class="case102" id="7">Digestive Health</div>');
+        write('<div class="case102" id="8">Energy Support</div>');
+        write('<div class="case102" id="8">Eye health</div>');
+        write('<div class="case102" id="10">Heart Health</div>');
+        write('<div class="case102" id="11">Immune Support</div>');
+        write('<div class="case102" id="12">Joint Health</div>');
+        write('<div class="case102" 1d="13">Joint Support</div>');
+        write('<div class="case102" id="14">Mens Health</div>');
+        write(' <div class="case102" 1d="15">Mens Health</div>');
+        write('<div class="case102" id="16">Respiratory Support</div>');
+        write('<div class="case102" id="17">Sexual Health & Facility</div>');
+        write(' <div class="case102" id="18">Sleep & Relaxation</div>');
+        write('<div class="case102" id="19">Womens Health</div>');
+        write('<div class="case102" id="20">Womens Health</div>');
+        write('</div>');
+        write('</div>');
+        write('<div class="case1 case33"><a href="" class="firstcontainerdiv">Herbs</a></div>');
+        write('<div class="case1"><a href="" class="firstcontainerdiv">Minerals</a></div>');
+        write('<div class="case1"> <a href="" class="firstcontainerdiv">Protein & Fitness</a></div>');
+        write('<div class="case1"> <a href="" class="firstcontainerdiv">Vitamins & Suplements</a></div>');
+        write(' </div>');
+        write(' <div class="firstcontainer clean ">');
+        write('<div class="class2">By Brand</div>');
+        write('<div class="minisearchdiv">');
+        write('<input type="text" class="minisearch">');
+        write('<img src="search.svg" alt="" class="searchclick">');
+        write('</div>');
+        write('<div class="case104">');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Amazing');
+        write(' Grass</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106"> BesiBest</a>');
+        write(' </div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href=""');
+        write('class="case106">BestNaturals</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Canarata</a>');
+        write('</div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Canlist</a>');
+        write(' </div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Carlyle</a>');
+        write(' </div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Charak</a>');
+        write('</div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Divine');
+        write('Bounty</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Doctors');
+        write('Best</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href=""');
+        write(' class="case106">DoctorsRecipes</a></div>');
+        write('  <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Efong</a>');
+        write(' </div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">EUNatural</a>');
+        write(' </div>');
+        write('  <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">FGO</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Gaia');
+        write('Herbs</a></div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Garden');
+        write('life</a></div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Good');
+        write(' Nature</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Horbaach</a>');
+        write(' </div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Intimate');
+        write(' Rose</a></div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href=""');
+     write(' class="case106">jarrowFormulas</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">KAL</a></div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Life');
+        write(' Extension</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Muscle');
+        write('Tech</a></div>');
+        write('<div class="case107"> <input type="checkbox" class="checked"><a href="" class="case106">Natural');
+        write(' Vitality</a></div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Nature');
+        write(' made</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Natures');
+        write(' Bounty</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Natures');
+        write(' Way</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href=""');
+        write(' class="case106">NatureBell</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">New Rythm</a>');
+        write(' </div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Now Foods</a>');
+        write(' </div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href=""');
+        write(' class="case106">NutraBlast</a></div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Nutricost</a>');
+        write('</div>');
+        write('  <div class="case107"><input type="checkbox" class="checked"><a href=""');
+        write(' class="case106">Nutriflair</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Nutrion</a>');
+        write(' </div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Orgain</a>');
+        write('</div>');
+        write('  <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Paradise');
+        write('Herbs</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Puritan');
+        write(' Herbs</a></div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Qunol</a>');
+        write(' </div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Sandhus</a>');
+        write('</div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">SM');
+        write(' Nutrition</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Solaray</a>');
+        write('</div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Solgar</a>');
+        write('</div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Sports');
+        write(' Research</a></div>');
+        write('  <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Swanson</a>');
+        write(' </div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href=""');
+        write(' class="case106">TheraBreath</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href=""');
+        write('class="case106">Theralogix</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Traditional');
+        write(' Medicinals</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Upnourish</a>');
+        write(' </div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Wholesome');
+        write(' Story</a></div>');
+        write('<div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Zazzee</a>');
+        write(' </div>');
+        write(' <div class="case107"><input type="checkbox" class="checked"><a href="" class="case106">Zhou');
+        write(' Nutrition</a></div>');
+        write('  </div>');
+        write(' </div>');
+        write(' </div>');
+        write(' <div class="fifthdivmini2">');
+        write(' <div class="yyy"></div>');
+        write(' </div>');
+        write(' </div>');
+       write(' </div>');
+
+    }
+}
+
+
+function lastdiv(){
+    with(document){
+        write('<div class="lastdiv">');
+        write('<div class="constant divminiheader">');
+        write('<div>');
+        write('<p class="case55">Contacts</p>');
+        write('<div class="first">');
+        write('<p class="static">Get in Touch</p>');
+        write('<p class="static diff">+234 816 571 3623</p>');
+        write('<p class="static">info@laraholic.ng</p>');
+        write(' <p class="static">Mon - Fri : 9am – 6pm</p>');
+        write('</div>');
+        write('</div>');
+        write('<div>');
+        write('<p class="case55">User Area</p>');
+        write('<div class="first">');
+        write('<a href="">');
+        write('<p class="other">My Account</p>');
+        write(' </a>');
+        write('<a href="">');
+        write('<p class="other">Checkout</p>');
+        write('</a>');
+        write('<a href="">');
+        write('<p class="other">Cart</p>');
+        write(' </a>');
+        write(' <a href="">');
+        write(' <p class="other">g</p>');
+        write(' </a>');
+        write(' </div>');
+        write(' </div>');
+        write(' <div>');
+        write('<p class="case55">Information</p>');
+        write('<div class="first">');
+        write('<a href="">');
+        write('<p class="other">Terms of Use</p>');
+        write('</a>');
+        write(' <a href="">');
+        write('<p class="other">Privacy Policy</p>');
+        write(' </a>');
+        write('<a href="">');
+        write('<p class="other">Shipping/Delivery</p>');
+        write(' </a>');
+        write('<a href="">');
+        write('<p class="other">Refunds, Returns & Exchange</p>');
+        write('</a>');
+        write(' </div>');
+        write(' </div>');
+        write('<div>');
+        write('<p class="case55">Quick Links</p>');
+        write(' <div class="first">');
+        write(' <a href="">');
+        write('<p class="other">Home</p>');
+        write('</a>');
+        write('<a href="">');
+        write('<p class="other">About us</p>');
+        write(' </a>');
+        write('<a href="">');
+        write(' <p class="other">Contact</p>');
+        write(' </a>');
+        write(' <a href="">');
+        write('<p class="other" id="other">Product Guarantee</p>');
+        write(' </a>');
+        write('</div>');
+        write(' </div>');
+        write('</div>');
+        write('</div>');
+        write('<div id="container"></div>');
+    }
+}

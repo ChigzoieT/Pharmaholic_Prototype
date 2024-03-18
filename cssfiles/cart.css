@@ -1,0 +1,177 @@
+.h1div{
+   display: flex;
+   
+
+   place-content: center;
+   width: 100%;
+   padding-top: 2rem;
+   padding-bottom: 8rem;
+}
+
+.contentscontainer{
+   height: auto;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.cartbanner{
+    
+  background-color: silver;
+   display: flex;
+   height: 2rem;
+   
+}
+
+.cartbannerr{
+
+   
+   display: flex;
+   min-height: 2rem;
+   margin-top: 0.5rem;
+}
+
+.extracontents{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 30rem;
+    padding-left: 3rem;
+}
+
+.removeelementt{
+    opacity: 0;
+}
+
+.bts{
+    color: white;
+    background-color: darkgreen;
+    cursor: pointer;
+    height: 3rem;
+    width: 8rem;
+    border-style: solid;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px ;
+    border-top-right-radius: 30px;
+    border-color: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.removelement{
+    cursor: pointer;
+}
+
+.productt{
+    min-width: 43rem;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.pyp{
+    border-bottom: 1px solid;
+    border-color: silver;
+    width: 100%;
+}
+
+.cartimg{
+    height: 9rem;
+    width: 9rem;
+}
+
+.bannertag{
+    margin-top: 2rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.producttt{
+    min-width: 43rem;
+    display: flex;
+    place-content: left;
+    align-items: center;
+    gap: 2rem;
+}
+
+.cartdiv{
+    padding-bottom: 0rem;
+    height: auto;
+}
+
+.sp{
+   background: silver;
+    color: black;
+}
+
+
+
+.checkoutdiv{
+  
+    margin-top: 0.6rem;
+    width: 40rem;
+}
+
+.castingcase{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*align-items: center;*/
+    align-items: right;
+    margin-top: 5rem;
+  
+    padding-bottom: 1rem;
+}
+
+.ptc{
+    margin-top: 1rem;
+    display: flex;
+    height: 2rem;
+    place-content: center;
+    align-items: center;
+    background-color: darkgreen;
+   color: white;
+}
+
+.checkoutdivmain{
+    background-color:#f5f5f5;
+    padding-top: 1rem;
+    border: 1px solid;
+    border-color: silver;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+.checkoutdiv1{
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sp:hover{
+    opacity: 0.8;
+    font-size: 0.9rem ;
+}
+
+.ptptd:hover{
+   opacity: 0.8;
+    width: 8.3;
+    height: 3.2;
+    font-size: 0.95rem ;
+}
+
+@media only screen and (max-width: 730px) and (min-width: 300px){
+    .vop{
+
+        display: none;
+
+    }
+}
+
+
+

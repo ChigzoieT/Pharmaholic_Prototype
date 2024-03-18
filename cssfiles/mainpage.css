@@ -1,0 +1,1200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    font-family: "Work sans", sans-serif;
+
+}
+
+.bodyclass{
+   opacity: 0.2;
+}
+
+
+
+.constant {
+    display: flex;
+    align-items: center;
+}
+
+.firstdiv {
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color: skyblue;
+}
+
+.topbarfirstdiv {
+    width: 12rem;
+    gap: 0.3rem;
+    padding-left: 2rem;
+    justify-content: space-between;
+}
+
+.miniheader {
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+
+.headerdocument {
+    font-weight: 330;
+    font-size: 0.85rem;
+    color: white;
+}
+
+.topbarseconddiv {
+    gap: 0.2rem;
+    display: flex;
+    padding-right: 2rem;
+
+}
+
+.divider {
+    color: antiquewhite;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    color: white;
+}
+
+.seconddiv {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    color: black;
+    justify-content: space-between;
+    display: block;
+}
+
+
+.logocontainer {
+    width: 15rem;
+    height: 4rem;
+    background-color: lightgreen;
+}
+
+
+
+.seconddivcontainer {
+
+
+    gap: 0px;
+    padding-left: 2rem;
+    gap: rem;
+    padding-right: 2rem;
+    justify-content: space-between;
+
+}
+
+.searchbutton {
+    height: 2.525rem;
+    width: 5rem;
+    background-color: darkgreen;
+    color: white;
+    font-weight: 700;
+    border: 1px;
+    border-top-right-radius: 1mm;
+    border-bottom-right-radius: 1mm;
+    font-size: 1rem;
+    opacity: 1;
+    cursor: pointer;
+}
+
+input {
+    height: 1.525rem;
+    width: 30rem;
+
+
+}
+
+.searchdiv {
+    height: 2.525rem;
+    display: flex;
+    align-items: center;
+    border: thin;
+    border-color: silver;
+    border-style: solid;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 1rem;
+    overflow: hidden;
+    gap: 1rem;
+    position: relative;
+    z-index: 15;
+    background-color: #f5f5f5;
+
+}
+
+.lll{
+    height: 2.525rem;
+    display: none;
+    
+    align-items: center;
+    border: thin;
+    border-color: silver;
+    border-style: solid;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow: hidden;
+    z-index: 15;
+    background-color: #f5f5f5;
+   
+}
+
+.blipez{
+    height: 2.4rem;
+   }
+
+
+
+
+img {
+    height: 2.625rem;
+    width: 2.625;
+}
+
+.blap {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background-color: #f5f5f5;
+
+}
+
+.searchbutton:hover {
+    opacity: 0.5;
+}
+
+.calldiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.consultingname {
+    font-weight: 300;
+    color: darkgreen;
+    padding-top: 0.1rem;
+    font-size: 0.8rem;
+    padding-bottom: 0.2rem;
+}
+
+.phonenumber {
+    font-weight: 700;
+    color: darkgreen;
+    font-family: "Roboto";
+    font-size: 0.8rem;
+    padding-bottom: 0.6rem;
+
+}
+
+.shoppingcart {
+    position: relative;
+}
+
+.countercase {
+    color: black;
+    height: 1.1rem;
+    width: 1.1rem;
+    background: green;
+    border-radius: 100%;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.2rem;
+}
+
+.countercase1 {
+    color: black;
+    height: 1.1rem;
+    width: 1.1rem;
+    background: green;
+    border-radius: 100%;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.2rem;
+
+
+}
+
+.cartincrementor {
+    color: white;
+    font-weight: 1000;
+    font-size: 1rem;
+    position: absolute;
+    left: 0.2rem;
+    top: -0.2rem;
+
+}
+
+.sideitems {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    place-content: center;
+}
+
+.wishlistdiv {
+    position: relative;
+}
+
+.dropdown {
+    cursor: pointer;
+}
+
+.accountimage {
+    height: 2.925rem;
+    width: 2.625;
+}
+
+.account {
+    display: flex;
+}
+
+p {
+    color: black;
+}
+
+.dropdownoptions {
+
+    position: fixed;
+    width: 5rem;
+    height: 4rem;
+    display: none;
+
+}
+
+
+
+.accountfont {
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+}
+
+.dropdowncase {
+    align-items: center;
+    padding-bottom: 0.3rem;
+}
+
+.dropdown {
+    padding-top: -0.4rem;
+    position: relative;
+    width: 2rem;
+    left: 1rem;
+}
+
+div {
+    color: black;
+}
+
+.login {
+    height: 1.8rem;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    place-content: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.case4 {
+    color: green;
+    font-weight: 700;
+}
+
+.thirddiv {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: darkgreen;
+    width: 100%;
+
+
+
+
+}
+
+
+
+.thirddivcontents {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+}
+
+.lime {
+    margin-top: 3rem;
+}
+
+
+
+
+.fourthdiv {
+    background-color: #f5f5f5;
+
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.fourthdivcontents {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contentshover:hover {
+    color: yellow;
+}
+
+.newsvg:hover .datadiv {
+    opacity: 10;
+}
+
+
+.fifthdivmini {
+    padding-left: 1rem;
+    max-width: 300rem;
+}
+
+.fifthdivmini2 {
+    background-image: url("pharmarholic.jpg");
+    background-size: cover;
+    opacity: none;
+   width: 100%;
+    height: 75rem;
+    margin-left: 1rem;
+    margin-top: 0.085rem;
+}
+
+.firstcontainer {
+    background: #f5f5f5;
+    width: 15rem;
+    padding-bottom: 2.5rem;
+
+
+
+}
+
+
+.itemscontainer {
+    width: 10rem;
+
+
+}
+
+.firstcontainerdiv {
+    color: black;
+
+
+}
+
+.fifthdiv {
+    padding-top: 2rem;
+    display: flex;
+    padding-right: 1rem;
+
+}
+
+
+
+
+
+.case1 {
+    padding-top: 0.8rem;
+    font-weight: 595;
+    padding-left: 2rem;
+
+}
+
+.class2 {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.homedata {
+    color: #09c;
+}
+
+
+.clean {
+    position: relative;
+    top: 2rem;
+}
+
+.minisearchdiv {
+    background: white;
+    height: 2rem;
+    margin-left: 0.5rem;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: silver;
+}
+
+.minisearch {
+    height: 1rem;
+    width: 11rem;
+    margin-left: 0.3rem;
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+}
+
+.minisearch:active {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+.searchclick {
+    height: 0.9rem;
+    width: 0.9;
+}
+
+.lastdiv {
+
+
+    margin-top: 7rem;
+    background-color: azure;
+    width: 100%;
+}
+
+.divminiheader {
+
+    padding-top: 2.5rem;
+
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.lastcontainer {
+    justify-content: space- space-between;
+}
+
+.first {
+    padding-top: 1rem;
+}
+
+.case55 {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    font-weight: 750;
+}
+
+.other {
+    cursor: pointer;
+    padding-top: 0.9rem;
+    font-size: 0.85rem;
+
+}
+
+.static {
+    padding-top: 0.9rem;
+    font-size: 0.85rem;
+}
+
+.other:hover {
+    font-weight: 520;
+    color: skyblue;
+}
+
+
+.diff {
+    color: darkgreen;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+
+
+
+.case6 {
+    gap: 5rem;
+    margin-left: 2rem;
+}
+
+.flipped {
+    height: 1.3rem;
+    width: 1.3rem;
+}
+
+.flipper {
+    margin-top: 1rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+
+}
+
+.case33 {
+    margin-top: -1rem;
+}
+
+.case101 {
+    padding-left: 2.5rem;
+    width: 10rem;
+    height: 0rem;
+    transition-duration: 1500ms;
+    transition-property: height;
+    transition-timing-function: ease-out;
+    overflow-x: hidden;
+}
+
+
+
+.case102 {
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.case102:hover {
+    color: skyblue;
+}
+
+.firstcontainerdiv:hover {
+    color: skyblue;
+}
+
+
+
+.case106 {
+    color: black;
+
+
+}
+
+.case107 {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    gap: 0.5rem;
+    padding-left: 2rem;
+}
+
+.case104 {
+    margin-top: 2rem;
+    height: 6rem;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.case104::-webkit-scrollbar {
+    height: 100%;
+    width: 0.5rem;
+    scroll-behavior: smooth;
+
+}
+
+.case104::-webkit-scrollbar-track {
+    width: 2rem;
+    background-color: silver;
+    scroll-behavior: smooth;
+
+
+}
+
+.case104::-webkit-scrollbar-thumb {
+    background-color: #71706E;
+}
+
+.checked {
+    height: 1rem;
+    width: 1rem;
+}
+
+.case101::-webkit-scrollbar {
+    width: 0;
+}
+
+.heart {
+    height: 2rem;
+}
+
+.newsvg {
+    fill: white;
+    position: relative;
+    top: 0.5rem;
+}
+
+.yoyo {
+    border: thin;
+    border-color: white;
+    border-style: solid;
+    height: 0.8rem;
+    width: 0.8rem;
+    top: 1rem;
+    background-color: white;
+    rotate: 45deg;
+    position: absolute;
+    left: 2.5rem;
+    z-index: 4;
+
+    opacity: 10;
+    opacity: 0;
+}
+
+.hup {
+    height: 2rem;
+    width: 7rem;
+    background: transparent;
+    top: -1rem;
+
+
+    position: relative;
+    z-index: 8;
+
+
+}
+
+.resized {
+    height: 2.2rem;
+}
+
+
+
+
+
+.hup:hover .datadiv {
+    height: 40rem;
+    border: 1px;
+    border-style: solid;
+    border-color: silver;
+
+}
+
+.hup:hover .yoyo {
+    opacity: 10;
+}
+
+
+
+
+
+.cvv {
+    font-weight: 600;
+}
+
+
+
+.datadiv {
+    height: auto;
+
+    background-color: white;
+
+    position: absolute;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    width: 10rem;
+    left: -2rem;
+    opacity: 10;
+    height: 0;
+    overflow: hidden;
+    z-index: 3;
+    transition-property: height;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+
+
+
+    /* bottom: -5rem;*/
+    top: 1.4rem;
+
+}
+
+.pyx{
+    display: none;
+}
+
+.liep{
+   
+    align-items: center;
+   gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    display: none;
+}
+
+
+
+.cleo{
+    display: none;
+}
+
+
+
+
+.divbar{
+    background-color: #f5f5f5;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.sortby{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    width: 18rem;
+    font-size: 0.9rem;
+    background-color: white;
+    padding-left: rem;
+    justify-content: space-between;
+    border: thin;
+    padding: 0.3rem;
+    border-style: solid;
+    border-color:#b8b8b8;
+}
+
+.divbar img{
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.dragged{
+    display: flex;
+    gap: 2rem;
+}
+
+.miniitems{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.minicaseon{
+    position:fixed;
+    font-size: 0.9rem;
+    background-color: white;
+    justify-content: space-between;
+    border: thin;
+    padding: 0.3rem;
+    padding-left: 0.6rem;
+    border-style: solid;
+    border-color:#b8b8b8;
+    width: 17.7rem;
+    top: 18.2rem;
+    margin-left: -0.4rem;
+  
+ 
+  display: none;
+    
+}
+
+.divbar p span{
+    font-weight: 900;
+}
+
+.divbar p{
+    font-size: 0.8rem;
+}
+
+
+.minicaseon div{
+    padding-top: 0.8rem;
+}
+
+.minicaseon div:hover{
+    font-weight: 700;
+}
+
+.pplu{
+    padding-bottom: 0.6rem;
+}
+
+.popii{
+fill: blue;
+}
+
+.sortby:hover .minicaseon{
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 739px) and (min-width:731px){
+    .calldiv{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 730px) and (min-width: 300px) {
+
+    .liep{
+        display: flex;
+    }
+    .firstdiv {
+        display: none;
+    }
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .divbar{
+        display: none;
+    }
+
+    .fifthdiv{
+        background-color: green;
+    }
+
+    .calldiv {
+        display: none;
+    }
+
+    .cleo{
+        
+        color: white;
+        display: flex;
+    }
+
+    .class2{
+        background-color: green;
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+       
+    }
+
+    svg{
+        fill: white;
+        font-weight: 400;
+    }
+
+    .sideitems{
+        gap: 0.8rem;
+    }
+
+    
+
+    .seconddiv {
+      width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        display: block;
+    }
+
+    .lll{
+        display: flex;
+    }
+
+    
+
+    .searchdiv {
+        display: none;
+    }
+
+    .lastdiv {
+        display: block;
+        margin-top: 0rem;
+       
+    }
+
+    .clean {
+        display: none;
+    }
+
+    .case55 {
+        padding-top: 1rem;
+        font-size: 20px;
+       
+    }
+
+    .static {
+        padding-top: 3px;
+    }
+
+    .thirddivcontents {
+        display: block;
+    }
+
+    .other{
+        font-size: 16px;
+    }
+
+    .divminiheader {
+        display: block;
+    }
+
+
+
+    .box {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+        width: 100%;
+    }
+
+    .seconddivcontainer{
+       
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .fourthdiv{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
+
+
+    .thirddiv {
+       
+        
+        display: none;
+    }
+
+    .fifthdivmini2{
+        background-color: green;
+    }
+
+    .case6{
+        padding-top: 3rem;
+    }
+
+    .case1{
+        padding-top: 3rem;
+    }
+
+    .contentshover {
+        padding-top: 2rem;
+    }
+
+    .fifthdiv{
+        padding: 0;
+        margin: 0;
+    }
+
+    .logocontainer{
+        width: 12rem;
+        height: 2.8rem;
+       
+    }
+
+    
+
+    .fifthdivmini2{
+        padding: 0;
+       margin-left: -20px;
+       width: 0;
+    }
+
+
+    .fifthdiv{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .yyy{
+        margin: 0;
+        width: 10rem;
+        height: 10rem;
+        background-color: blue;
+        padding: 0;
+    }
+
+    .lastdiv{
+        background-color: white;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+   
+
+    .firstcontainer{
+        position: absolute;
+        left: -300px;
+       height: 100%;
+       top: -10px;
+        background-color: white;
+        padding-top: 0;
+        margin-top: 0;
+        transition-duration: 1000ms;
+        transition-property: left;
+        transition-timing-function: ease;
+    }
+    .hideContainer{
+        left: -10px;
+    }
+
+    
+
+    .club{
+        display: none;
+    }
+
+    .divminiheader{
+        padding: 0;
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    .diff{
+        font-size: 1rem;
+    }
+
+   .firstcontainerdiv{
+   
+    font-size: 1rem;
+    font-weight: 700;
+   }
+
+   .first{
+    margin: 0;
+    padding: 0;
+   }
+
+   .heart{
+    height: 1.5rem;
+   }
+
+   .cartincrementor{
+    font-size: 0.9rem;
+    top: -0.25rem;
+    left: 0.15rem;
+   }
+
+   .accountimage{
+    height: 2.4rem;
+   }
+
+   .countercase{
+    top: 0.9rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    left: 1.1rem;
+   }
+
+   .plier{
+    height: 2rem;
+    width: 2rem;
+    z-index: 5;
+    position: relative;
+    background-color: transparent;
+   
+   }
+
+   img{
+    height: 1.8rem;
+   }
+
+   .lll{
+    
+    background-color: white;
+    width: 20rem;
+    padding-left: 1rem;
+    padding-right: 0;
+    padding-top: 0;
+    height: 2.3rem;
+    padding-bottom: 0;
+    margin: 0;
+   }
+
+   input{
+    width: 16rem;
+    flex-wrap: nowrap;
+
+   }
+
+   .blap{
+    height: 2.2rem;
+    background-color: white;
+   }
+}
+
+
+
+@media only screen and (max-width:769px) and (min-width:740px){
+    .calldiv{
+        display: none;
+    }
+
+    .minicaseon{
+        top: 21.3rem;
+    }
+
+    .seconddivcontainer{
+        gap: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1007px) and (min-width: 770px){
+    .calldiv{
+        display: none;
+    }
+
+    .minicaseon{
+        top: 20.9rem;
+    }
+
+    .seconddivcontainer{
+        gap: 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width:1230px) and (min-width:1151px){
+    .minicaseon{
+        top: 18.9rem;
+    }
+}
+
+@media only screen and (max-width:1150px) and (min-width:1008px){
+    .minicaseon{
+        top: 21.5rem;
+    }
+}
+
+
+

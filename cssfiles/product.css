@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+
+
+.productdiv{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.dataimg{
+    height: 20rem;
+    width: 20rem;
+    border-style: solid;
+}
+
+
+.nnn{
+    display: flex;
+    gap: 2rem;
+    max-width: 100rem;
+   
+}
+
+
+.blew{
+    max-width: 50rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+
+.believe{
+    display: flex;
+    padding-bottom: 0.5rem;
+    align-items: center;
+}
+
+.itemd{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.relatedproduct{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+}
+
+.descriptiondiv{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.p{
+    border-bottom: 1px solid;
+    border-color: silver;
+
+}
+
+.ppy{
+    display: flex;
+    background-color: blue;
+    align-items: center;
+
+}
+
+.ppx{
+    margin-left: -0.5rem;
+}
+
+.xyz{
+    margin-top: -0.2rem;
+}
+
+.z{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+}
+
+.teo{
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.teol{
+    color: #666;
+    font-weight:1000;
+    font-size:15px;
+}
+
+.y{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+
+
+.qe{
+    display: flex;
+}
+
+.blinker{
+    height: 2.8rem;
+    width: 8rem;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 600;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-color: none;
+    cursor: pointer;
+}
+
+.blin{
+    background-color: green;
+}
+
+.qop{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.ppi{
+    padding-bottom: 1rem;
+}
+
+.vip{
+    font-size: 20px;
+}
+
+
+
+.qo{
+    display: flex;
+    padding-left: 0.5rem;
+    gap: 0.4rem;
+    border: thin;
+    border-style: solid;
+    width: 3.7rem;
+    height: 2.5rem;
+    align-items: center;
+}
+
+.yo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.vetto{
+    border: 1px solid;
+    border-color: silver;
+    width: 15rem;
+    height: 80rem;
+    position: relative;
+    z-index: 1;
+}
+
+.vet{
+    background: silver;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+.pyy{
+    background-color: #25D366;
+    height: 4rem;
+    width: 12rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border: thin;
+    border-style: solid;
+   
+}
+.pop{
+    padding-top: 0.5rem;
+}
+
+.pty{
+    padding-bottom: 0.5rem;
+}
+
+.xy{
+    border-bottom: 1px solid;
+}
+
+.vvn{
+    opacity: 0;
+}
+
+.yellow{
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 6px
+
+}
+
+
+.yelow{
+    color: #337ab7;
+    font-weight:900;
+    font-size: 1rem;
+}
+
+.hyp{
+    display: flex;
+    align-items: center;
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+
+@media only screen and (max-width: 730px) and (min-width: 300px)  {
+    .firstdiv{
+        display: none;
+    }
+
+    .calldiv{
+        display: none;
+    }
+
+    
+
+    .seconddiv{
+        max-width: 21rem;
+    }
+
+    .searchdiv{
+        display: none;
+    }
+
+    .case55{
+        margin: 0;
+        padding: 0;
+    }
+
+    .first{
+        
+    }
+
+    
+
+
+
+}

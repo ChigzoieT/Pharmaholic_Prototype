@@ -1,0 +1,152 @@
+body{
+    background-color: silver;
+}
+
+
+.login_container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: white;
+    width: 20rem;
+
+}
+
+.registercontainer{
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: white;
+    width: 20rem;
+
+}
+
+.padded{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.clickcontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+    align-items: center;
+    background-color: darkgreen;
+   
+}
+
+
+.c1{
+    height:1rem;
+    background: black;
+    width: 1rem;
+}
+
+.spanning{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 1rem;
+}
+
+.notknown{
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.buttonclicker{
+    width: 80%;
+    background-color: green;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border-radius: 3px;
+    height: 53px;
+    line-height: 53px;
+    color: white;
+    border: none;
+}
+
+
+.options{
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+.boxed input{
+    display: grid;
+    height: 2rem;
+    width: 20rem;
+}
+
+
+
+
+
+.mins:focus{
+    outline: none;
+}
+
+.mins{
+    appearance: none;
+    -webkit-appearance: none;
+    border: thin;
+    border-style: solid;
+    border-color: white;
+   /* margin-left: 1rem;*/
+}
+
+
+.mins::placeholder{
+    opacity: 0.8;
+}
+
+.shifter{
+    margin-top: 1rem;
+}
+
+.loginaccount{
+    /*margin-left: 2rem;*/
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.inndiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:20.2rem;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    height: 2.5rem;
+   border-top-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+  /* margin-left: 2rem;*/
+}
+
+
+
+
+
+
+.minsearch2{
+    height: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+    border: thin;
+    border-style: solid;
+    border-color: white;
+}

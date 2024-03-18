@@ -1,0 +1,32 @@
+.popupdesign{
+    width: 20rem;
+    height: 4rem;
+    border: 1px;
+    border-style: solid;
+    background-color: white;
+    border-color: silver;
+    position: relative;
+    bottom: 8px;
+    z-index: 3;
+}
+
+
+
+.kiteshape{
+    border: thin;
+    border-color: white;
+    border-style: solid;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: white;
+    rotate: 45deg;
+    position: relative;
+    left: 15.5rem;
+    z-index: 5;
+    
+}
+
+body{
+    background-color: orangered;
+
+}

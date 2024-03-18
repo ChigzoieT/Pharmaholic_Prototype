@@ -1,0 +1,115 @@
+
+.newdiv{
+    height: 10rem;
+    width: 10rem;
+    border: thin;
+    border-style: solid;
+    /*padding-left: 0.2rem;
+    padding-top: 0.5rem;*/
+    margin-left: 0.2rem;
+    z-index: 1;
+   
+}
+
+.maincontainer2{
+ width: 10.5rem;
+ height: 20rem;
+ border: 1px solid;
+ /*padding-left: 0.2rem;*/
+ padding-top: 0.5rem;
+ position: fixed;
+}
+
+.maincontainer2:hover .space{
+    bottom: 9.99rem;
+}
+
+
+
+
+
+.first{
+    height: 2rem;
+    width: 2rem;
+    border: thin;
+    border-style: solid;
+     display: flex;
+    align-items: center;
+    border-radius: 100%;
+}
+
+
+
+.space{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    gap: 2rem;
+    z-index: 2;
+    padding-left: 2.1rem;
+    cursor: pointer;
+    padding-right: 2.2rem;
+    transition-property: bottom;
+    transition-duration: 300ms;
+
+}
+
+.second{
+    height: 2rem;
+    cursor: pointer;
+    width: 2rem;
+    border: thin;
+    border-style: solid;
+     display: flex;
+    align-items: center;
+    border-radius: 100%;
+   
+}
+
+
+.helloo{
+
+    width: 100%;
+    fill: black;
+    border: thin;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+   
+}
+
+
+.hellooo{
+
+    width: 100%;
+    border: thin;
+    border-radius: 100%;
+    height: 2rem;
+    width: 2rem;
+   
+
+}
+
+body{
+    position: relative;
+}
+
+.first:hover .helloo{
+    background-color: darkgreen;
+    fill: white;
+}
+
+.second:hover .hellooo{
+    background-color: darkgreen;
+    fill: white;
+}
+
+
+.casingdetailscontainer{
+    height: 9.7rem;
+    position: relative;
+    z-index: 3;
+    background-color: white;
+
+}
